@@ -8,7 +8,7 @@ import { three } from './utils/threeEffect'
 
 const App = () => {
   useEffect(() => {
-    three();
+    // three();
     link();
     menubar();
     menu();

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-import { gsapEffect } from '../utils/gsapEffect.js'
+import OpeningLine from './contents/OpeningLine.jsx';
+import { gsapEffect } from '../utils/gsapEffect.js';
 
 const Opening = () => {
     useEffect(() => {
@@ -7,66 +8,24 @@ const Opening = () => {
     }, [])
 
     return (
-        <section id="picture">
+        <section id="opening">
             <h2 className="blind">메인사진 섹션</h2>
-            <div className="picture__line__ver">
-                <div className="container">
-                    <div className="picture__ver__wrap">
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                    </div>
-                </div>
-            </div>
-            <div className="picture__line__horiz">
-                <div className="container">
-                    <div className="picture__horiz__wrap">
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                    </div>
-                </div>
-            </div>
+            <OpeningLine />
             <div className="noise__overlay"></div>
-            <div className="pic__contents containerH">
-                <div className="pic__text">
-                    <div className="pText t1">
+            <div className="open__contents containerH">
+                <div className="open__text">
+                    <div className="oText t1">
                         <div className="t split">CREATIVE</div>
                         <div className="text__gif g1"></div>
                         <div className="t__etc">
                             <p>portfolio2024</p>
                         </div>
                     </div>
-                    <div className="pText t2">
+                    <div className="oText t2">
                         <div className="text__gif g2"></div>
                         <div className="t split">FRONTEND</div>
                     </div>
-                    <div className="pText t3">
+                    <div className="oText t3">
                         <div className="t split">DEVELOPER</div>
                         <div className="text__gif g3"></div>
                     </div>

@@ -6,7 +6,7 @@ const Comment = (props) => {
             <h2 className="blind">코멘트 섹션</h2>
             <div className="comment__wrap containerH">
                 <div className="comment__title secT">
-                    <img src={props.arrowImg} alt="화살표이미지" />
+                    <img src={props.arrowImg} alt={props.arrowAlt} />
                     <h2>Comment</h2>
                     <div className="title__line"></div>
                 </div>

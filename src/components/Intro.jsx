@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const Intro = () => {
+const Intro = (props) => {
+    useEffect(() => {
+        props.appear();
+    }, [props])
     return (
         <section id="intro">
             <h2 className="blind">인트로 섹션</h2>

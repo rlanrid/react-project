@@ -13,20 +13,26 @@ import Comment from '../components/Comment'
 import Line from '../components/Line'
 
 import ArrowImg from '../assets/img/arrow.png'
+import { appear } from '../utils/apper'
+import { mouse } from '../utils/mouse'
+import Progress from '../components/Progress'
+import Canvas from '../components/Canvas'
 
 const HomeView = () => {
     return (
         <>
+            <Progress />
             <Header />
+            <Canvas />
             <Main>
                 <Opening />
-                <Intro />
-                <Port arrowImg={ArrowImg} />
-                <More arrowImg={ArrowImg} />
-                <About arrowImg={ArrowImg} />
-                <Stack arrowImg={ArrowImg} />
-                <Contact arrowImg={ArrowImg} />
-                <Comment arrowImg={ArrowImg} />
+                <Intro appear={appear} />
+                <Port arrowImg={ArrowImg} arrowAlt="화살표이미지" />
+                <More arrowImg={ArrowImg} arrowAlt="화살표이미지" mouse={mouse} />
+                <About arrowImg={ArrowImg} arrowAlt="화살표이미지" />
+                <Stack arrowImg={ArrowImg} arrowAlt="화살표이미지" />
+                <Contact arrowImg={ArrowImg} arrowAlt="화살표이미지" />
+                <Comment arrowImg={ArrowImg} arrowAlt="화살표이미지" />
             </Main>
             <Footer />
             <Line />

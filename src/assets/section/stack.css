@@ -71,13 +71,13 @@
     margin-bottom: 14px;
 }
 
-.stack__desc .desc {
+.stack__desc .type {
     font-size: 14px;
     font-family: var(--mainfont-tg);
     color: var(--mid-grey);
 }
 
-.stack__desc>p {
+.stack__desc .desc {
     position: absolute;
     left: 90px;
     top: -107px;

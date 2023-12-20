@@ -4,6 +4,7 @@ export function link() {
             e.preventDefault();
 
             const targetId = this.getAttribute("href");
+            console.log(targetId)
             const targetElement = document.querySelector(targetId);
 
             if (targetElement) {

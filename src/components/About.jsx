@@ -1,5 +1,6 @@
 import React from 'react'
 import RightArrowImg from '../assets/img/rightArrow.png'
+import { Link } from 'react-router-dom'
 
 const About = (props) => {
     return (
@@ -7,7 +8,7 @@ const About = (props) => {
             <h2 className="blind">자기소개 섹션</h2>
             <div className="about__wrap containerH">
                 <div className="about__title secT">
-                    <img src={props.arrowImg} alt="화살표이미지" />
+                    <img src={props.arrowImg} alt={props.arrowAlt} />
                     <h2>About</h2>
                     <div className="title__line"></div>
                 </div>
@@ -27,10 +28,10 @@ const About = (props) => {
 
                         </div>
                         <div className="about__link">
-                            <a href="#">
+                            <Link to="/">
                                 <p>About me</p>
                                 <img src={RightArrowImg} alt="오른쪽화살표" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="about__right">

@@ -3,6 +3,11 @@ import portImg2 from "../assets/img/TDsite.jpg"
 import portImg3 from "../assets/img/youtubesite.jpg"
 import portImg4 from "../assets/img/nodesite.png"
 
+import MouseImg1 from "../assets/img/quizmoviesite.png"
+import MouseImg2 from "../assets/img/vitesite.png"
+import MouseImg3 from "../assets/img/webstandardsite.png"
+import MouseImg4 from "../assets/img/academysite.png"
+
 import stackIcon1 from "../assets/img/icon__html5.png"
 import stackIcon2 from "../assets/img/icon__css3.png"
 import stackIcon3 from "../assets/img/icon__sass.png"
@@ -16,7 +21,43 @@ import stackIcon10 from "../assets/img/icon__json.png"
 import stackIcon11 from "../assets/img/icon__vscode.png"
 import stackIcon12 from "../assets/img/icon__figma.png"
 
-export const PortImgs = [portImg1, portImg2, portImg3, portImg4];
+export const PortImgs = [
+    {
+        src: portImg1,
+        alt: "포폴이미지1"
+    },
+    {
+        src: portImg2,
+        alt: "포폴이미지2"
+    },
+    {
+        src: portImg3,
+        alt: "포폴이미지3"
+    },
+    {
+        src: portImg4,
+        alt: "포폴이미지4"
+    },
+];
+
+export const MouseImgs = [
+    {
+        src: MouseImg1,
+        alt: "영화퀴즈게임사이트"
+    },
+    {
+        src: MouseImg2,
+        alt: "영화퀴즈게임사이트"
+    },
+    {
+        src: MouseImg3,
+        alt: "영화퀴즈게임사이트"
+    },
+    {
+        src: MouseImg4,
+        alt: "영화퀴즈게임사이트"
+    },
+]
 
 export const StackImgs = [
     {

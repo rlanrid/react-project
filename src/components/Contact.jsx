@@ -1,51 +1,14 @@
 import React from 'react'
+import ContactLine from './contents/ContactLine'
 
 const Contact = (props) => {
     return (
         <section id="contact">
             <h2 className="blind">연락 섹션</h2>
-            <div className="contact__line__ver">
-                <div className="container">
-                    <div className="contact__ver__wrap">
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                        <div className="vertical__line gradient"></div>
-                    </div>
-                </div>
-            </div>
-            <div className="contact__line__horiz">
-                <div className="container">
-                    <div className="contact__horiz__wrap">
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                        <div className="horizon__line gradient"></div>
-                    </div>
-                </div>
-            </div>
+            <ContactLine />
             <div className="contact__wrap containerH">
                 <div className="contact__title secT">
-                    <img src={props.arrowImg} alt="화살표이미지" />
+                    <img src={props.arrowImg} alt={props.arrowAlt} />
                     <h2>Contact</h2>
                     <div className="title__line"></div>
                 </div>

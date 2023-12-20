@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import nav from '../constants/index.js'
+import nav from '../data/nav.js'
 
 const Header = () => {
     return (
@@ -9,16 +8,16 @@ const Header = () => {
                 <div className="header__container">
                     <div className="header__logo">
                         <div className="logo__text">
-                            <Link to="/">
+                            <a href="/">
                                 Frontend Developer - W<i>oojoo</i><em>K<i>im</i></em>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <nav className="nav">
                         <ul>
                             {nav.map((navItem, key) => (
                                 <li key={key}>
-                                    <Link to={navItem.url} className="nav__link">{navItem.title}</Link>
+                                    <a href={navItem.url} className="nav__link">{navItem.title}</a>
                                 </li>
                             ))}
                         </ul>

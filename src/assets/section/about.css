@@ -71,12 +71,17 @@
 
 .about__right figure {
     height: 100%;
-    filter: saturate(100%);
+    filter: saturate(50%);
     background-image: url(../img/about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
     background-position: 50%;
+    transition: filter 0.3s;
+}
+
+.about__right figure:hover {
+    filter: saturate(100%);
 }
 
 .about__right img {

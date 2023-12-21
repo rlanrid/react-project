@@ -1,6 +1,7 @@
 import React from 'react'
 import RightArrowImg from '../assets/img/rightArrow.png'
 import { Link } from 'react-router-dom'
+import noiseImg from '../assets/img/noise.gif'
 
 const About = (props) => {
     return (
@@ -36,7 +37,7 @@ const About = (props) => {
                     </div>
                     <div className="about__right">
                         <figure>
-                            <img src="assets/img/noise.gif" alt="노이즈배경이미지" />
+                            <img src={noiseImg} alt="노이즈배경이미지" />
                         </figure>
                     </div>
                 </div>

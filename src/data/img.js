@@ -1,3 +1,7 @@
+import RightArrowImg from '../assets/img/rightArrow.png'
+import noiseImg from '../assets/img/noise.gif'
+import SmallLinkImg from '../assets/img/smallLink.png'
+
 import portImg1 from "../assets/img/moviesite.jpg"
 import portImg2 from "../assets/img/TDsite.jpg"
 import portImg3 from "../assets/img/youtubesite.jpg"
@@ -20,6 +24,12 @@ import stackIcon9 from "../assets/img/icon__php.png"
 import stackIcon10 from "../assets/img/icon__json.png"
 import stackIcon11 from "../assets/img/icon__vscode.png"
 import stackIcon12 from "../assets/img/icon__figma.png"
+
+export const ImgCol = {
+    RightArrowImg: RightArrowImg,
+    noiseImg: noiseImg,
+    SmallLinkImg: SmallLinkImg,
+}
 
 export const PortImgs = [
     {

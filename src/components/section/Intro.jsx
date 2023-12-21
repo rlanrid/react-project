@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { sliderAppar } from '../utils/apper';
+import { sliderAppar } from '../../utils/apper';
 
 const Intro = (props) => {
     useEffect(() => {

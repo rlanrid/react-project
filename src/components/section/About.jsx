@@ -1,7 +1,7 @@
 import React from 'react'
-import RightArrowImg from '../assets/img/rightArrow.png'
 import { Link } from 'react-router-dom'
-import noiseImg from '../assets/img/noise.gif'
+import { ImgCol } from '../../data/img'
+
 
 const About = (props) => {
     return (
@@ -31,13 +31,13 @@ const About = (props) => {
                         <div className="about__link">
                             <Link to="/">
                                 <p>About me</p>
-                                <img src={RightArrowImg} alt="오른쪽화살표" />
+                                <img src={ImgCol.RightArrowImg} alt="오른쪽화살표" />
                             </Link>
                         </div>
                     </div>
                     <div className="about__right">
                         <figure>
-                            <img src={noiseImg} alt="노이즈배경이미지" />
+                            <img src={ImgCol.noiseImg} alt="노이즈배경이미지" />
                         </figure>
                     </div>
                 </div>

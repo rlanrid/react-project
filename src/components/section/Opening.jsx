@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import OpeningLine from './contents/OpeningLine.jsx';
-import { gsapEffect } from '../utils/gsapEffect.js';
+import OpeningLine from '../contents/OpeningLine.jsx';
+import { gsapEffect } from '../../utils/gsapEffect.js';
 
 const Opening = () => {
     useEffect(() => {

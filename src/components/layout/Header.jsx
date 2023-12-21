@@ -1,5 +1,5 @@
 import React from 'react'
-import nav from '../data/nav.js'
+import nav from '../../data/nav.js'
 
 const Header = () => {
     return (

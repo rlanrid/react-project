@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { PortInfo } from '../constants/index.js'
+import { PortInfo } from '../../constants/index.js'
 
 const Port = (props) => {
     return (

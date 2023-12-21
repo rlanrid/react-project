@@ -1,5 +1,5 @@
 import React from 'react'
-import nav from '../data/nav'
+import nav from '../../data/nav'
 
 const Footer = () => {
     return (

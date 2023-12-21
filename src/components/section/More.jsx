@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import SmallLinkImg from '../assets/img/smallLink.png'
-import { moreInfo } from '../constants'
+import { ImgCol } from '../../data/img'
+import { moreInfo } from '../../constants'
 import { Link } from 'react-router-dom'
 
 const More = (props) => {
@@ -24,7 +24,7 @@ const More = (props) => {
                             <div className="stack">{item.stack}</div>
                             <div className="link">
                                 <Link to={item.link}>
-                                    <img src={SmallLinkImg} alt="작은링크화살표" />
+                                    <img src={ImgCol.SmallLinkImg} alt="작은링크화살표" />
                                 </Link>
                             </div>
                             <div className="more__img__wrap">

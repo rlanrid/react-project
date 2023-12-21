@@ -1,5 +1,5 @@
 import React from 'react'
-import { StackInfo } from '../constants/index.js';
+import { StackInfo } from '../../constants/index.js';
 
 const Stack = (props) => {
     return (

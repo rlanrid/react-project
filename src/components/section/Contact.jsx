@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactLine from './contents/ContactLine'
+import ContactLine from '../contents/ContactLine'
 
 const Contact = (props) => {
     return (

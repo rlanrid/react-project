@@ -43,8 +43,12 @@ export function gsapEffect() {
     })
 
     const ani1 = gsap.timeline();
-    ani1.from("#opneing .text__gif.g1", { xPercent: 20, opacity: 0, duration: 0.5, delay: 1 })
-        .from("#opneing .text__gif.g2", { xPercent: -20, opacity: 0, duration: 0.5 })
-        .from("#opneing .text__gif.g3", { yPercent: 20, opacity: 0, duration: 0.5 })
-        .from("#opneing .t__etc", { xPercent: 20, opacity: 0, duration: 0.5 })
+    ani1.set("#opening .text__gif.g1", { xPercent: 20, opacity: 0 }) // 초기값 설정
+        .set("#opening .text__gif.g2", { xPercent: -20, opacity: 0 })
+        .set("#opening .text__gif.g3", { yPercent: 20, opacity: 0 })
+        .set("#opening .t__etc", { xPercent: 20, opacity: 0 })
+        .to("#opening .text__gif.g1", { xPercent: 0, opacity: 1, duration: 0.5, delay: 1 }) // 목표값 설정
+        .to("#opening .text__gif.g2", { xPercent: 0, opacity: 1, duration: 0.5 })
+        .to("#opening .text__gif.g3", { yPercent: 0, opacity: 1, duration: 0.5 })
+        .to("#opening .t__etc", { xPercent: 0, opacity: 1, duration: 0.5 });
 }

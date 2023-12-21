@@ -119,3 +119,19 @@ export function appear() {
         icon.addEventListener("mouseout", handleMouseOut);
     });
 }
+
+export function sliderAppar() {
+    // intro - sliderTrack 만들기
+    const sliderTrackContents = document.querySelector('#sliderTrack1').innerHTML;
+    console.log(sliderTrackContents)
+    // const newSliderTrack = document.createElement('div');
+
+    // newSliderTrack.classList.add('slider__track');
+    // newSliderTrack.id = 'sliderTrack2';
+
+    // const sliderTrack2 = document.querySelector('#sliderTrack2');
+    // sliderTrack2.innerHTML = sliderTrackContents;
+
+    // const sliderWrap = document.querySelector('.slider__wrap');
+    // sliderWrap.appendChild(newSliderTrack);
+}

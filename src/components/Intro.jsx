@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
+import { sliderAppar } from '../utils/apper';
 
 const Intro = (props) => {
     useEffect(() => {
         props.appear();
+        sliderAppar();
     }, [props])
     return (
         <section id="intro">
@@ -41,7 +43,7 @@ const Intro = (props) => {
                             <div className="slider">
                                 <div className="text tSass">Sass</div>
                             </div>
-                            <div className="slider ">
+                            <div className="slider">
                                 <div className="text tJson">Json</div>
                             </div>
                             <div className="slider">
@@ -54,7 +56,7 @@ const Intro = (props) => {
                                 <div className="text tPhp">PHP</div>
                             </div>
                         </div>
-                        <div className="slider__track" id="sliderTrack2">
+                        {/* <div className="slider__track" id="sliderTrack2">
                             <div className="slider">
                                 <div className="text tHtml">HTML</div>
                             </div>
@@ -85,7 +87,7 @@ const Intro = (props) => {
                             <div className="slider">
                                 <div className="text tPhp">PHP</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
